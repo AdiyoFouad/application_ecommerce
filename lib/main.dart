@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
             case "slides":
               return connectionInscriptionPages();
             case "accueil":
-              return CreateProduit();
+              return HomePage();
             case "inscription":
               return inscriptionPages();
             case "mdpforget":
